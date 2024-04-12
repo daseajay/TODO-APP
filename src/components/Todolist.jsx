@@ -30,7 +30,7 @@ const Todolist = () => {
                 return ele.id!=id
           }
         )
-          updata(setTodo)
+          setTodo(updata)
       }
 
   return (
